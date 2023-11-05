@@ -10,3 +10,91 @@
 */
 
 /* Basis-Stile für den Wrapper und Spalten mit Padding für die gesamte Box */
+
+/* Adobe Fonts Import */
+@import url("https://use.typekit.net/zew8rqa.css");
+
+/* Baseline Spacing */
+:root {
+  --base-spacing: 48px;
+}
+
+/* Grundlegende Farbschemata */
+:root {
+  --color-font: #000000;
+  --color-background: #FFFFFF;
+  --color-highlight: #66B245;
+  --color-anchor: #000000;
+  --color-anchor-hover: #77AF53;
+}
+
+/* Globale Basiseinstellungen */
+body {
+  font-family: 'Interstate-Light', Sans-serif;
+  color: var(--color-font);
+  background-color: var(--color-background);
+  line-height: 1.7em;
+}
+
+/* Überschriften */
+h1 {
+  font-family: 'interstate-condensed', Sans-serif;
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 1.7em;
+  margin-bottom: var(--base-spacing);
+}
+
+/* Skalierende Überschriftengrößen, passend zu h1 */
+h2 {
+  font-family: 'Minion Pro Bold Cond', Sans-serif;
+  font-size: calc(66px / 1.2); /* Beispiel für skalierende Größe */
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+h3 {
+  font-family: 'Minion Pro Bold Cond', Sans-serif;
+  font-size: calc(66px / 1.4); /* Beispiel für skalierende Größe */
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Weitere Textgrößen */
+p, .text {
+  font-family: 'Interstate-Light', Sans-serif;
+  font-size: 24px;
+  line-height: 1.7em;
+}
+
+.text-small {
+  font-size: calc(24px / 1.2); /* Kleinerer Text */
+}
+
+.text-smaller {
+  font-size: calc(24px / 1.4); /* Noch kleinerer Text */
+}
+
+/* Links/Anker */
+a {
+  color: var(--color-anchor);
+  text-decoration: none;
+  border-bottom: 3px double var(--color-anchor);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-anchor-hover);
+}
+
+/* Spezielle Highlights */
+.highlight {
+  color: var(--color-highlight);
+}
+
+/* Helferklassen für Spacings */
+.mb-1 { margin-bottom: var(--base-spacing); }
+.mb-2 { margin-bottom: calc(var(--base-spacing) * 2); }
+/* ... Weiter Helferklassen nach Bedarf ... */
+
+/* Zusätzliche spezifische Styles hier ergänzen ... */

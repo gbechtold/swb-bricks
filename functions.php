@@ -48,6 +48,8 @@ add_filter('bricks/builder/elements', function($elements) {
     // Check if the user has 'editor' role but not 'administrator' role
     if (current_user_can('editor') && !current_user_can('administrator')) {
         // Filter elements for roles except 'administrator'
+        // https://forum.bricksbuilder.io/t/hide-disable-block-elements-in-backend-panel/10059/7
+        // https://forum.bricksbuilder.io/t/hide-disable-block-elements-in-backend-panel/10059 
         $not_needed = [
             'map',
             'alert',

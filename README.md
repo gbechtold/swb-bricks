@@ -31,6 +31,16 @@ Currently, the theme includes the following Bricks module:
 - **Context**: Used within the Bricks page builder environment to enhance layout flexibility.
 - **Editor Management**: Enables selective feature availability based on user roles, improving the editing experience for users with specific permissions.
 
+### Full Width Image Module
+
+### Full Width Multi-Line Headline Module
+
+### 2 Image Side By Side Post Module with Image and Link
+
+### Single Image Side By Side Post Module with Link Box
+
+### Header with Headline, Short Text and 2 Images
+
 ## Features
 
 ### Element Two Column
