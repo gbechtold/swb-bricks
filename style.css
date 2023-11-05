@@ -78,8 +78,10 @@ p, .text {
 /* Links/Anker */
 a {
   color: var(--color-anchor);
-  text-decoration: none;
-  border-bottom: 3px double var(--color-anchor);
+  text-decoration: underline;
+  font-weight: 700;
+  border-bottom: 7px solid (--color-anchor);
+  display: inline-block;
   transition: color 0.3s ease;
 }
 
