@@ -1,5 +1,5 @@
 <?php
-// element-two-column.php
+// swb-element-two-column.php
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
@@ -12,7 +12,7 @@ class Prefix_Element_Two_Column extends \Bricks\Element {
 
   // Return localized element label
   public function get_label() {
-    return esc_html__( 'Two Column Element', 'bricks' );
+    return esc_html__( 'SWB 🦢 Two Column Element', 'bricks' );
   }
 
   // Set builder controls
@@ -136,6 +136,10 @@ class Prefix_Element_Two_Column extends \Bricks\Element {
   }
 }
 
+
 // Register the element
-\Bricks\Elements::register_element( 'Prefix_Element_Two_Column', __DIR__ . '/element-two-column.php' );
-?>
+\Bricks\Elements::register_element( 'Prefix_Element_Two_Column', __DIR__ . '/swb-element-two-column.php' );
+
+// Register the element
+// \Bricks\Elements::register_element( 'Prefix_Element_Two_Column', __DIR__ . '/element-two-column.php' );
+// ?>

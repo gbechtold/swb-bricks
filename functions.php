@@ -22,7 +22,7 @@ add_action('init', function() {
     $element_files = [
         __DIR__ . '/elements/title.php',
         __DIR__ . '/elements/swb-element.php',
-				__DIR__ . '/elements/element-two-column.php',
+		__DIR__ . '/elements/swb-element-two-column.php',
 
     ];
 

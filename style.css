@@ -42,6 +42,7 @@ h1 {
   font-size: 66px;
   font-weight: 700;
   line-height: 1.7em;
+  text-transform: uppercase;
   margin-bottom: var(--base-spacing);
 }
 
@@ -50,6 +51,7 @@ h2 {
   font-family: 'Minion Pro Bold Cond', Sans-serif;
   font-size: calc(66px / 1.2); /* Beispiel für skalierende Größe */
   font-weight: 700;
+  text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
@@ -57,6 +59,7 @@ h3 {
   font-family: 'Minion Pro Bold Cond', Sans-serif;
   font-size: calc(66px / 1.4); /* Beispiel für skalierende Größe */
   font-weight: 700;
+  text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
